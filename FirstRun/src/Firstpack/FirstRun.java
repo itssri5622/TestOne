@@ -25,6 +25,7 @@ public class FirstRun {
 		WebDriver d= new ChromeDriver(options);
 		d.get("https://magento.softwaretestingboard.com/");
 		d.findElement(By.id("search")).click();
+		System.out.print("sri");
 		//d.findElement(By.className("navigation")).click();
 		//d.findElement(By.name("email")).click();
 		//d.findElement(By.linkText("Create an Account")).click();
